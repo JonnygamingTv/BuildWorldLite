@@ -4,7 +4,7 @@
 
 ---
 
-## 🌍 Features
+## Features
 
 - Custom flat world generator with configurable block layers
 - Surface set at Y=70 by default (grass block on top, stone down to -60, bedrock at -61)
@@ -15,7 +15,8 @@
 
 ---
 
-## 🔧 Configuration (`config.yml`)
+## Configuration (`config.yml`)
+Below is a clean version of config.yml, in case you mess up yours.
 
 ```yaml
 world-name: build_world
