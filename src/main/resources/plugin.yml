@@ -1,7 +1,7 @@
 name: BuildWorld
 version: '1.0-SNAPSHOT'
 main: com.huismus.buildworld.BuildWorld
-api-version: '1.21'
+api-version: '1.20.6'
 prefix: [ BuildWorld ]
 authors: [ Huismus ]
 description: Generates a custom flat build world for creative mode.
