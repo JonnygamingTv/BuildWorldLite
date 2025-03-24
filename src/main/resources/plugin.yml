@@ -1,0 +1,7 @@
+name: BuildWorld
+version: '1.0-SNAPSHOT'
+main: org.huismus.buildWorld.BuildWorld
+api-version: '1.21'
+prefix: [ Discord ]
+authors: [ Huismus ]
+description: A Discord Bot for linking Minecraft users
