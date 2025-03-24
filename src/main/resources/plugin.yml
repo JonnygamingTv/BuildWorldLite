@@ -1,7 +1,23 @@
 name: BuildWorld
 version: '1.0-SNAPSHOT'
-main: org.huismus.buildWorld.BuildWorld
+main: com.huismus.buildworld.BuildWorld
 api-version: '1.21'
-prefix: [ Discord ]
+prefix: [ BuildWorld ]
 authors: [ Huismus ]
-description: A Discord Bot for linking Minecraft users
+description: Generates a custom flat build world for creative mode.
+commands:
+  tpbuild:
+    description: Teleport to the build world.
+    usage: /tpbuild
+    permission: buildworld.tpbuild
+  tpdefault:
+    description: Teleport to the default world.
+    usage: /tpdefault
+    permission: buildworld.tpdefault
+permissions:
+  buildworld.tpbuild:
+    description: Allows teleporting to the build world.
+    default: true
+  buildworld.tpdefault:
+    description: Allows teleporting to the default world.
+    default: true

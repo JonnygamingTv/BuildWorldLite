@@ -1,0 +1,31 @@
+world-name: build_world
+
+# Whether to always keep the weather clear
+clear-weather: true
+
+# Whether to lock the time to always day
+lock-daylight: true
+
+# Whether players should be able to fly
+enable-flight: true
+
+# Default gamemode when entering the world
+gamemode: creative
+
+# Coordinates where players will spawn in the build world
+spawn-coordinates:
+  x: 0
+  y: 71
+  z: 0
+
+# World generation layers (from bottom to top)
+layers:
+  - block: bedrock
+    fromY: -61
+    toY: -61
+  - block: stone
+    fromY: -60
+    toY: 69
+  - block: grass_block
+    fromY: 70
+    toY: 70
